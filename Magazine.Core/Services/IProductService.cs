@@ -8,7 +8,7 @@ using Magazine.Core.Models;
 
 namespace Magazine.Core.Services
 {
-    internal interface IProductService
+    public interface IProductService
     {
         Product Add(Product product)
         {

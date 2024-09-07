@@ -3,13 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Magazine.Core.Services;
 
-namespace Magazine.Core.Models
+namespace Magazine.WebApi
 {
-    public class Product
+    internal class ProductService : IProductService
     {
-        Guid Id;
-        string? Definition, Name, Image;
-        int Price;
+
     }
 }
